@@ -1,0 +1,152 @@
+body {
+  font-family: 'Pretendard', sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.container {
+  width: 556.11px;
+  height: 356px;
+  margin: 0 auto;
+  padding: 12px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.clinic-name {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.right {
+  text-align: right;
+  font-size: 11px;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 2px;
+}
+
+.home img {
+  width: 16px;
+  height: 16px;
+}
+
+.home-label {
+  font-size: 10px;
+}
+
+.instruction {
+  text-align: center;
+  font-size: 14px;
+  margin: 4px 0 8px;
+}
+
+.phone-display {
+  border: 2px solid #03cf5c;
+  border-radius: 8px;
+  height: 32px;
+  font-size: 18px;
+  padding: 6px;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.keypad-wrapper {
+  border: 2px solid #03cf5c;
+  border-radius: 12px;
+  padding: 10px;
+  margin-bottom: 6px;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+}
+
+.key-button {
+  width: 100%;
+  aspect-ratio: 1 / 0.8;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  cursor: pointer;
+}
+
+.key-button.small {
+  font-size: 10px;
+  line-height: 1.2;
+  padding: 2px;
+}
+
+.checkbox-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 4px 0;
+}
+
+.checkbox-square {
+  width: 14px;
+  height: 14px;
+  background-color: #03cf5c;
+  margin-right: 6px;
+}
+
+.checkbox-label {
+  font-size: 12px;
+}
+
+.required {
+  font-weight: bold;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 48%;
+  height: 32px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.prev {
+  background-color: #e0e0e0;
+}
+
+.next {
+  background-color: #03cf5c;
+  color: white;
+}
